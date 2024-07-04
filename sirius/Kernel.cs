@@ -17,7 +17,7 @@ namespace sirius
         {
             Console.Write("$ ");
             var builtin = Console.ReadLine();
-            var OS_VER = "1.0.0 Milestone 1, 0.02";
+            var OS_VER = "1.0.0 Milestone 1, 0.03";
             switch (builtin) {
                 default:
                     Console.WriteLine(builtin + ": Is not a valid command");
@@ -27,6 +27,14 @@ namespace sirius
                     break;
                 case "help":
                     Console.WriteLine("ver - display version");
+                    Console.WriteLine("poweroff - turn off the computer");
+                    Console.WriteLine("reboot - reboot the computer");
+                    break;
+                case "poweroff":
+                    Cosmos.System.Power.Shutdown();
+                    break;
+                case "reboot":
+                    Cosmos.System.Power.Reboot();
                     break;
             }
         }
