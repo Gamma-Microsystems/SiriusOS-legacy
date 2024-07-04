@@ -26,7 +26,7 @@ If a security vulnerability is found, a bulletin will be added here.
 **No current bulletins.**
 
 ## Report Vulnerability
-Please go to the [Security Advisories](https://github.com/gamma63/SphereOS/security/advisories) page and click 'Report a vulnerability'.
+Please go to the [Security Advisories](https://github.com/gamma63/SiriusOS/security/advisories) page and click 'Report a vulnerability'.
 
 # What is KUR?
 KUR stands for: Kinda Unstable Release
