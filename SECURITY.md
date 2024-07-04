@@ -5,7 +5,7 @@
 
 ## Not Supported = 😵
 ## Supported = ✅
-## Support ends soon = ![support_ends_soon](.img/hangman.gif)
+## Support ends soon = ![support_ends_soon](img/hangman.gif)
 
 Supported Sirius Kernel versions:
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".img/sirius.png">
+  <img src="img/sirius.png">
   <h1>SiriusOS: Desktoping the COSMOS</h1>
 </div>
 
