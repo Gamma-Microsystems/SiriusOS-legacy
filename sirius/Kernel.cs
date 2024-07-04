@@ -10,15 +10,25 @@ namespace sirius
 
         protected override void BeforeRun()
         {
-            Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
+            Console.WriteLine("Welcome to SiriusOS!");
         }
         
         protected override void Run()
         {
-            Console.Write("Input: ");
-            var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            Console.Write("$ ");
+            var builtin = Console.ReadLine();
+            var OS_VER = "1.0.0 Milestone 1, 0.02";
+            switch (builtin) {
+                default:
+                    Console.WriteLine(builtin + ": Is not a valid command");
+                    break;
+                case "ver":
+                    Console.WriteLine(OS_VER);
+                    break;
+                case "help":
+                    Console.WriteLine("ver - display version");
+                    break;
+            }
         }
     }
 }
