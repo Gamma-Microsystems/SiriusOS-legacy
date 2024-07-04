@@ -1,0 +1,3 @@
+[submodule "fs/fat/fatfs"]
+	path = fs/fat/fatfs
+	url = https://github.com/abbrev/fatfs.git
