@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/license/gamma63/SiriusOS" />
   </a>
   <img src="https://www.aschey.tech/tokei/github/gamma63/SiriusOS">
-  <img src="https://img.shields.io/github/languages/top/gamma63/SiriusOS?color=purple&label=%20&logo=csharp">
+  <img src="https://img.shields.io/github/languages/top/gamma63/SiriusOS?color=purple&label=&logo=csharp">
   <img src="https://img.shields.io/github/languages/code-size/gamma63/SiriusOS.svg">
   <img src="https://img.shields.io/github/v/release/gamma63/SiriusOS">
   <img src="https://img.shields.io/github/downloads/gamma63/SiriusOS/total">
