@@ -16,12 +16,11 @@ Firstly build & install the COSMOS DevKit
     cd Cosmos
     make # P.S if you have error 1064 remove the Common directory and start make again
 ```
+Then [download](https://github.com/PratyushKing/cosmosCLI/releases/tag/v1.3.1-stable) cosmosCLI or [build](https://github.com/PratyushKing/cosmosCLI/archive/refs/heads/main.zip) it
 
 # Using Windows:
 Windows is not officialy supported :-(
 But you can try to build it
-
-Then [download](https://github.com/PratyushKing/cosmosCLI/releases/tag/v1.3.1-stable) cosmosCLI or [build](https://github.com/PratyushKing/cosmosCLI/archive/refs/heads/main.zip) it
 
 and finally, run **bash make.sh** in the SiriusOS source directory
 
