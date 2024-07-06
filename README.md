@@ -23,10 +23,12 @@ Installer is in W.I.P state, I think it is going to be released in M2 or M3
 
 ### [TODO List](https://github.com/gamma63/SiriusOS/issues?q=is%3Aissue+is%3Aopen+label%3ATODO)
 
-### Special Thanks to:
-COSMOS - for creating Toolkit
-Tech media - for shell rebuilding and VFS+Fat32
-You - for visiting this repo
+<div align="center">
+  <h2>Special Thanks to:</h2>
+  <h3>COSMOS - for creating Toolkit</h3>
+  <h3>Tech media - for shell rebuilding and VFS+Fat32</h3>
+  <h3>You - for visiting this repo</h3>
+</div>
 
 ## Star History
 
