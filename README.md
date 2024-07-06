@@ -12,16 +12,21 @@
   <img src="https://img.shields.io/github/languages/top/gamma63/SiriusOS?color=purple&label=%20&logo=csharp">
   <img src="https://img.shields.io/github/languages/code-size/gamma63/SiriusOS.svg">
   <img src="https://img.shields.io/github/v/release/gamma63/SiriusOS">
-  <img src="https://img.shields.io/github/downloads/gamma63/SiriusOS/total&color=forestgreen">
+  <img src="https://img.shields.io/github/downloads/gamma63/SiriusOS/total">
 </div>
 <hr>
 
 ### [Hey! If you want to build sirius click here](INSTALL.md)
 
 ### Installation
-Currently SiriusOS does not have an installer, because it needs real filesystem (like ext2 or exFAT) :(
+Installer is in W.I.P state, I think it is going to be released in M2 or M3
 
 ### [TODO List](https://github.com/gamma63/SiriusOS/issues?q=is%3Aissue+is%3Aopen+label%3ATODO)
+
+### Special Thanks to:
+COSMOS - for creating Toolkit
+Tech media - for shell rebuilding and VFS+Fat32
+You - for visiting this repo
 
 ## Star History
 
