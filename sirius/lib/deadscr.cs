@@ -3,7 +3,7 @@ using Cosmos.HAL;
 using System;
 using System.IO;
 
-namespace Sirius.DeadScreen
+namespace Sirius.lib
 {
     public static class DeadSCR
     {

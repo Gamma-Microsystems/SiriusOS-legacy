@@ -1,6 +1,3 @@
-- 0.06 **M1 FINAL**
-    - 🐌 To be done
-
 - 0.05 **M1** **BUILD: 64**
     - 🐞 Use : instead of - in help command as separator because of confusion with **rm -r** (e.g rm -r - deletes directory)
     - 🦋 Separate 90% of code from Kernel.cs

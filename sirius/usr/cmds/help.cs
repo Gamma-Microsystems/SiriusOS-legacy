@@ -21,6 +21,8 @@ namespace Sirius.Builtin
             Console.WriteLine("fvfs rm -r <PATH> : removes a directory");
             Console.WriteLine("fvfs write <PATH> : simple writer");
             Console.WriteLine("fvfs cat <PATH> : reads a file");
+            Console.WriteLine("ls : shows directories and files");
+            Console.WriteLine("cd : changes directory");
             return "";
         }
     }

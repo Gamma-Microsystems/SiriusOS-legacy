@@ -116,24 +116,18 @@ namespace Sirius.Builtin
                         {
                             response = "File not found";
                         }
-
                         break;
-
                     }
-
                     catch (Exception ex)
                     {
                         response = ex.ToString();
                         break;
                     }
-
                 default:
                     response = "Unexpected argument:" + args[0];
                     break;
             }
             return response;
-
         }
-
     }
 }

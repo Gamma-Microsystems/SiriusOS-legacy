@@ -14,11 +14,17 @@ namespace Sirius.Builtin
         public Shell() { 
             this.commands=new List<Command>();
             this.commands.Add(new help("help"));
-            this.commands.Add(new pcinf("pcinf"));
+            //this.commands.Add(new pcinf("pcinf"));
             this.commands.Add(new fvfs("fvfs"));
             this.commands.Add(new ver("ver"));
             this.commands.Add(new poweroff("poweroff"));
             this.commands.Add(new reboot("reboot"));
+            // I dont want to add two more commands into bloated 100+ lines of code file :D
+            this.commands.Add(new ls("ls"));
+            this.commands.Add(new ls("cd"));
+            this.commands.Add(new clear("clear"));
+            //this.commands.Add(new cp("cp"));
+            //this.commands.Add(new mv("mv"));
         }
 
         public String proccesInput(String input)
