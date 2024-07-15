@@ -1,3 +1,7 @@
+> [!WARNING]
+> You are viewing SiriusOS pc (∞) branch 
+> Which contains unstable or unfinished code!
+
 <div align="center">
   <img src="img/sirius.png">
   <h1>SiriusOS: Desktoping the COSMOS</h1>
