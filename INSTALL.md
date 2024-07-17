@@ -20,13 +20,16 @@ Then [download](https://github.com/PratyushKing/cosmosCLI/releases/tag/v1.3.1-st
 and finally, run **bash make.sh** in the SiriusOS source directory
 
 # Using Windows:
-Windows is not officialy supported :-(
+### Windows is not officialy supported :-(
 But you can try to build it
 
+# Using macOS
+Same as in [linux](#using-linux) but you need to install docker for virtual environment
+
 # Testing:
-### Qemu
-run **sh mkqemu.sh** to convert vmdk to the QemuIMG (If you want filesystem testing of course)
-then run **sh autorun.sh** or use **bash run.sh** with your custom args
 
 ### VMWare
 Create a virtual machine, import the Filesystem.vmdk as hard disk, and then import ISO file as CD/DVD
+
+### Virtualbox
+Same as in [vmware](#vmware)

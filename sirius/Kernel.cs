@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 using Sirius.Builtin;
+using Sirius.UI;
 
-namespace sirius.kmain
+namespace sirius
 {
     public class Kernel: Sys.Kernel
     {   
         private Sys.FileSystem.CosmosVFS fvfs; // Fat/Virtual File System
+        public static bool grun;
+        int AlzheimerRAM;
 
         protected override void BeforeRun()
         {
@@ -20,11 +23,30 @@ namespace sirius.kmain
         
         protected override void Run()
         {
-            Shell shell = new Sirius.Builtin.Shell();
-            Console.Write("ROOT# ");
-            var builtin = Console.ReadLine();
-            var response = shell.proccesInput(builtin);
-            Console.WriteLine(response);
+            // TODO: change to switches because yes
+
+            // Are we in GUI?
+            if(!grun)
+            {
+                Shell shell = new Sirius.Builtin.Shell();
+                Console.Write("ROOT# ");
+                var builtin = Console.ReadLine();
+                var response = shell.proccesInput(builtin);
+                Console.WriteLine(response);
+            }
+            else
+            {
+                gmain.refresh();
+            }
+
+            // AlzheimerRAM (Garbage collection) stuff
+            if(AlzheimerRAM >= 20)
+            {
+                Heap.Collect();
+                AlzheimerRAM = 0; // That's how mafia works
+            }
+            else
+                AlzheimerRAM++;
         }
     }
 }

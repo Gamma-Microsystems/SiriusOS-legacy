@@ -1,3 +1,8 @@
+- Infinity **M2** **BUILD: NEXT**
+    - 🦗 Added GUI
+    - 🕸️ Update Shell (replace vga standart font with more beautiful font)
+    - 🐌 Started work with binary formats and new toolchain
+
 - 0.05 **M1** **BUILD: 64**
     - 🐞 Use : instead of - in help command as separator because of confusion with **rm -r** (e.g rm -r - deletes directory)
     - 🦋 Separate 90% of code from Kernel.cs

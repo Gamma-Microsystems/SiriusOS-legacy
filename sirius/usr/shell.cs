@@ -23,6 +23,7 @@ namespace Sirius.Builtin
             this.commands.Add(new ls("ls"));
             this.commands.Add(new ls("cd"));
             this.commands.Add(new clear("clear"));
+            this.commands.Add(new sUI("sUI"));
             //this.commands.Add(new cp("cp"));
             //this.commands.Add(new mv("mv"));
         }

@@ -14,7 +14,7 @@ namespace Sirius.Builtin
             Console.WriteLine("ver : display version");
             Console.WriteLine("poweroff : turn off the computer");
             Console.WriteLine("reboot : reboot the computer");
-            Console.WriteLine("pcinf : shows the computer information");
+            Console.WriteLine("clear : clears the screen");
             Console.WriteLine("fvfs mkdir <PATH> : creates a directory");
             Console.WriteLine("fvfs touch <PATH> : creates a file");
             Console.WriteLine("fvfs rm <PATH> : removes a file");
@@ -22,7 +22,8 @@ namespace Sirius.Builtin
             Console.WriteLine("fvfs write <PATH> : simple writer");
             Console.WriteLine("fvfs cat <PATH> : reads a file");
             Console.WriteLine("ls : shows directories and files");
-            Console.WriteLine("cd : changes directory");
+            Console.WriteLine("sUI : starts Sirius UI");
+            //Console.WriteLine("cd : changes directory");
             return "";
         }
     }
