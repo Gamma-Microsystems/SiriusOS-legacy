@@ -1,4 +1,4 @@
-- Infinity **M2** **BUILD: NEXT**
+- Infinity **M2** **BUILD: 201**
     - 🦗 Added GUI
     - 🕸️ Update Shell (replace vga standart font with more beautiful font)
     - 🐌 Started work with binary formats and new toolchain
