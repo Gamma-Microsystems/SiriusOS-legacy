@@ -2,6 +2,6 @@
 *.a
 *.iso
 *.img
-sirius/ISO/
-sirius/bin/
-sirius/obj/
+*/ISO/
+*/bin/
+*/obj/

@@ -23,7 +23,7 @@
 ### [Hey! If you want to build sirius click here](INSTALL.md)
 
 ### Installation
-Installer is in W.I.P state, I think it is going to be released in M2 or M3
+Soon...
 
 ### [TODO List](https://github.com/gamma63/SiriusOS/issues?q=is%3Aissue+is%3Aopen+label%3ATODO)
 
