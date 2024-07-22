@@ -1,0 +1,13 @@
+[0]
+name = "Root"
+partition = "0:\"
+
+[1]
+name = "CD/DVD"
+partition = "1:\"
+
+[2]
+name = "Floppy"
+partition = "2:\"
+
+# You can add other disks here

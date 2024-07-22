@@ -2,6 +2,7 @@
 *.a
 *.iso
 *.img
+*.bin
 */ISO/
 */bin/
 */obj/
