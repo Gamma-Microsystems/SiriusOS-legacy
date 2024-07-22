@@ -9,4 +9,4 @@
 | Programs  | Stroing programs |
 | Protected | Stroring software which runs on boot (this directory must be read only when SiriusOS is loaded) |
 | Temporary | Storing temporary files |
-| Unsafe    | Nonfree software |
+| Unsafe    | Storing nonfree software |
