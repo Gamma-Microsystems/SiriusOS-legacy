@@ -22,7 +22,6 @@ namespace Sirius.Builtin
             Console.WriteLine("fvfs write <PATH> : simple writer");
             Console.WriteLine("fvfs cat <PATH> : reads a file");
             Console.WriteLine("ls : shows directories and files");
-            Console.WriteLine("sUI : starts Sirius UI");
             //Console.WriteLine("cd : changes directory");
             return "";
         }

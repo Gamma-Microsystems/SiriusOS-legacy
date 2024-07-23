@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 using Sirius.Builtin;
-using Sirius.UI;
 
 namespace sirius
 {
@@ -23,30 +22,11 @@ namespace sirius
         
         protected override void Run()
         {
-            // TODO: change to switches because yes
-
-            // Are we in GUI?
-            if(!grun)
-            {
-                Shell shell = new Sirius.Builtin.Shell();
-                Console.Write("ROOT# ");
-                var builtin = Console.ReadLine();
-                var response = shell.proccesInput(builtin);
-                Console.WriteLine(response);
-            }
-            else
-            {
-                gmain.refresh();
-            }
-
-            // AlzheimerRAM (Garbage collection) stuff
-            if(AlzheimerRAM >= 20)
-            {
-                Heap.Collect();
-                AlzheimerRAM = 0; // That's how mafia works
-            }
-            else
-                AlzheimerRAM++;
+            Shell shell = new Sirius.Builtin.Shell();
+            Console.Write("$ ");
+            var builtin = Console.ReadLine();
+            var response = shell.proccesInput(builtin);
+            Console.WriteLine(response);
         }
     }
 }
