@@ -4,16 +4,16 @@ using System.Text;
 using Sys = Cosmos.System;
 using Sirius.Builtin;
 
-namespace sirius
+namespace Sirius
 {
     public class Kernel: Sys.Kernel
     {   
         private Sys.FileSystem.CosmosVFS fvfs; // Fat/Virtual File System
-        public static bool grun;
-        int AlzheimerRAM;
 
         protected override void BeforeRun()
         {
+            Console.SetWindowSize(90, 30);
+            Console.OutputEncoding = Cosmos.System.ExtendedASCII.CosmosEncodingProvider.Instance.GetEncoding(437);
             this.fvfs = new Sys.FileSystem.CosmosVFS();
             Sys.FileSystem.VFS.VFSManager.RegisterVFS(this.fvfs);
             Console.WriteLine("NOTE: The FS will not work if it is runned on CD/DVD or VM's ISO");

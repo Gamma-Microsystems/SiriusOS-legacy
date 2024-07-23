@@ -11,7 +11,7 @@ namespace Sirius.Builtin
 
         public override String execute (String[] args)
         {
-            var OS_VER = "Infinity M2, Build: 105";
+            var OS_VER = "Infinity M3";
             Console.WriteLine(OS_VER);
             return "";
         }
