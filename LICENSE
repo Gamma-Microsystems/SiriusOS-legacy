@@ -1,22 +1,20 @@
-Sirius Public License 1.1
+Sirius Public License 1.2
 July 24 2024
 
 Copyright (C) 2024 gamma63
 
-Redistribution of the program in binary format is prohibited.
+Redistribution of the program is allowed, but you must remember that you need to provide the source code (you can also optionally provide binaries).
 Please read the clauses carefully.
 
-1) No one has the right to change the license, or to close the source code.
-2) You are allowed to use this software as submodule in software with compatible licenses in clause 2.1, but still prohibits the deletion of this document.
-2.1) You are not allowed to use this software as submodule in other licenses than GPLv2, GPLv3, AGPLv3, LGPLv2.1, MIT, Apache License 2.0.
+1) If you have a fork of this product, you are not allowed to change license without permission of author, exception updates.
+2) You are allowed to use this software as submodule in software with GPL compatible license, but still prohibits the deletion of this document.
+2.1) You are allowed to use only GPL compatible license for thirdparty libraries
 3) You are allowed to use this software in commercial purposes (except you can't close the source or distribute it in binary format only).
-4) You are not allowed to change this license to other, exception license updates.
+3.1) You can close the source code for commercial purposes, BUT ONLY IF YOU GIVEN THE CREDIT IN 1ST LINE
+4) If you have a fork of this product, you are not allowed to relicense software to other license without permission of author.
 5) You are not allowed to change this license text to other, exception if you are creating new license (but which will not be compatible with SPL).
 6) You are allowed to create any sort of modification to the program.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
-EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
