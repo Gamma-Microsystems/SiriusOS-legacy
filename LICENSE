@@ -11,7 +11,7 @@ Please read the clauses carefully.
 2.1) You are not allowed to use this software as submodule in other licenses than GPLv2, GPLv3, AGPLv3, LGPLv2.1, MIT, Apache License 2.0.
 3) You are allowed to use this software in commercial purposes (except you can't close the source or distribute it in binary format only).
 4) You are not allowed to change this license to other, exception license updates.
-5) You are not allowed to change this license text to other, exception if you are creating new license (but which will not be compatible with SPL 1.0).
+5) You are not allowed to change this license text to other, exception if you are creating new license (but which will not be compatible with SPL).
 6) You are allowed to create any sort of modification to the program.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
