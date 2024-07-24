@@ -7,10 +7,8 @@ Redistribution of the program is allowed, but you must remember that you need to
 Please read the clauses carefully.
 
 1) If you have a fork of this product, you are not allowed to change license without permission of author, exception updates.
-2) You are allowed to use this software as submodule in software with GPL compatible license, but still prohibits the deletion of this document.
-2.1) You are allowed to use only GPL compatible license for thirdparty libraries
-3) You are allowed to use this software in commercial purposes (except you can't close the source or distribute it in binary format only).
-3.1) You can close the source code for commercial purposes, BUT ONLY IF YOU GIVEN THE CREDIT IN 1ST LINE
+2) You are allowed to use this software as submodule, but still prohibits the deletion of this document.
+3) You are allowed to use this software in commercial purposes including closing the source, BUT ONLY IF YOU GIVEN THE CREDIT IN 1ST LINE.
 4) If you have a fork of this product, you are not allowed to relicense software to other license without permission of author.
 5) You are not allowed to change this license text to other, exception if you are creating new license (but which will not be compatible with SPL).
 6) You are allowed to create any sort of modification to the program.
