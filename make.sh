@@ -1,6 +1,5 @@
 #!/bin/bash
 NVER=6.0
-MVER=3
 
 _increment_build_number() {
     if [ ! -f "build_number.txt" ]; then 
@@ -47,6 +46,6 @@ xorriso -as mkisofs -b sysroot/limine-bios-cd.bin \
 	-no-emul-boot -boot-load-size 4 -boot-info-table \
 	--efi-boot sysroot/limine-uefi-cd.bin \
 	-efi-boot-part --efi-boot-image --protective-msdos-label \
-	sysroot -o SiriusOS-dotnet$NVER-milestone$MVER.iso
+	sysroot -o SiriusOS.iso
     chmod +x tools/limine.tool
-    ./tools/limine.tool bios-install SiriusOS-dotnet$NVER-milestone$MVER.iso
+    ./tools/limine.tool bios-install SiriusOS.iso

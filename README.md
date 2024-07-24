@@ -34,6 +34,8 @@ Soon...
   <h3>You - for visiting this repo</h3>
 </div>
 
+## Contributors
+
 ## Star History
 
 <a href="https://star-history.com/#gamma63/SiriusOS&Date">
