@@ -10,9 +10,8 @@
 <hr>
 <div align="center">
   <a href="https://github.com/gamma63/SiriusOS/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/gamma63/SiriusOS" />
+    <img src="https://img.shields.io/badge/license-SPL%201.2-green" />
   </a>
-  <img src="https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white">
   <img src="https://www.aschey.tech/tokei/github/gamma63/SiriusOS">
   <img src="https://img.shields.io/github/languages/code-size/gamma63/SiriusOS.svg">
   <img src="https://img.shields.io/github/v/release/gamma63/SiriusOS">
