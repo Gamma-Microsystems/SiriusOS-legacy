@@ -35,6 +35,16 @@ Soon...
 </div>
 
 ## Contributors
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/gamma63.png" width="100">
+    </td>
+    <td>
+      <a href="https://github.com/gamma63">gamma63</a>
+    </td>
+  </tr>
+</table>
 
 ## Star History
 
