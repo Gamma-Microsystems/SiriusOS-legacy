@@ -1,5 +1,6 @@
 #!/bin/bash
 NVER=6.0
+MVER=3
 
 _increment_build_number() {
     if [ ! -f "build_number.txt" ]; then 
@@ -38,4 +39,14 @@ cosmos -b
 cp bin/cosmos/Debug/net$NVER/sirpe.bin ../sysroot/
 cd ..
 
-# TODO: Add packaging to .iso commands here
+cd tools
+cc -g -O2 -pipe -Wall -Wextra -std=c99 limine.c -o limine.tool
+cd ..
+
+xorriso -as mkisofs -b sysroot/limine-bios-cd.bin \
+	-no-emul-boot -boot-load-size 4 -boot-info-table \
+	--efi-boot sysroot/limine-uefi-cd.bin \
+	-efi-boot-part --efi-boot-image --protective-msdos-label \
+	sysroot -o SiriusOS-dotnet$NVER-milestone$MVER.iso
+    chmod +x tools/limine.tool
+    ./tools/limine.tool bios-install SiriusOS-dotnet$NVER-milestone$MVER.iso

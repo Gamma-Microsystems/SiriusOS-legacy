@@ -2,7 +2,8 @@
 *.a
 *.iso
 *.img
-*.bin
+sysroot/sir*.bin
+tools/*.tool
 */ISO/
 */bin/
 */obj/

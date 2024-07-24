@@ -20,7 +20,7 @@ Then [download](https://github.com/PratyushKing/cosmosCLI/releases/tag/v1.3.1-st
 and finally, run **bash make.sh** in the SiriusOS source directory
 
 # Using Windows:
-Install Cosmos Devkit (try this guide: https://invidious.incogniweb.net/watch?v=NhTb_Ck6Rfk), double click the **make.bat**, done!
+Windows is not supported again :-(
 
 # Using macOS
 Same as in [linux](#using-linux) but you need to install docker for virtual environment

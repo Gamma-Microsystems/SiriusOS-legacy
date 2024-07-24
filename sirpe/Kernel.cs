@@ -60,7 +60,7 @@ namespace sirpe
                             Cosmos.System.Power.Shutdown();
                             break;
                         case ConsoleKey.Y:
-                            UnderConstruction();
+                            SelectDisk();
                             break;
                         default:
                             break;
@@ -72,6 +72,15 @@ namespace sirpe
             {
                 Console.WriteLine("Fatal: Double fault.");
             }
+        }
+
+        public static void SelectDisk()
+        {
+            Console.Clear();
+            Console.WriteLine("Select hdd/ssd to install SiriusOS");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("WARNING ALL DATA ON HDD/SSD WILL BE FORMATED\nTHERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY\nAPPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT\nHOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM <<AS IS>> WITHOUT WARRANTY\nOF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\nTHE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\nPURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM\nIS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF\nALL NECESSARY SERVICING, REPAIR OR CORRECTION.");
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         public static void UnderConstruction()
