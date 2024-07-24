@@ -1,4 +1,4 @@
-Sirius Public License 1.0 
+Sirius Public License 1.1
 July 24 2024
 
 Copyright (C) 2024 gamma63
@@ -8,7 +8,7 @@ Please read the clauses carefully.
 
 1) No one has the right to change the license, or to close the source code.
 2) You are allowed to use this software as submodule in software with FSF-licenses, but still prohibits the deletion of this document.
-2.1) You are not allowed to use this software as submodule in other licenses than GPLv2, GPLv3, AGPLv3, LGPLv2.1.
+2.1) You are not allowed to use this software as submodule in other licenses than GPLv2, GPLv3, AGPLv3, LGPLv2.1, MIT, Apache License 2.0.
 3) You are allowed to use this software in commercial purposes (except you can't close the source or distribute it in binary format only).
 4) You are not allowed to change this license to other, exception license updates.
 5) You are not allowed to change this license text to other, exception if you are creating new license (but which will not be compatible with SPL 1.0).
