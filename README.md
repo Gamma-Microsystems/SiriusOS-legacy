@@ -9,9 +9,6 @@
 
 <hr>
 <div align="center">
-  <a href="https://github.com/gamma63/SiriusOS/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-SPL%201.2-green" />
-  </a>
   <img src="https://www.aschey.tech/tokei/github/gamma63/SiriusOS">
   <img src="https://img.shields.io/github/languages/code-size/gamma63/SiriusOS.svg">
   <img src="https://img.shields.io/github/v/release/gamma63/SiriusOS">
@@ -29,7 +26,7 @@ Soon...
 <div align="center">
   <h2>Special Thanks to:</h2>
   <h3>COSMOS - for creating Toolkit</h3>
-  <h3>Tech media - for shell rebuilding and VFS+Fat32</h3>
+  <h3>Tech media - for the shell</h3>
   <h3>You - for visiting this repo</h3>
 </div>
 
