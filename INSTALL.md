@@ -13,7 +13,7 @@
 ```sh
     sudo add-apt-repository ppa:dotnet/backports
     sudo apt update
-    sudo apt install -y make yasm xorriso dotnet-sdk-6.0 git grub-mkrescue mtools grub-pc-bin grub-common
+    sudo apt install -y make yasm xorriso dotnet-sdk-6.0 git mtools grub-pc-bin grub-common
 ```
 
 # Using Linux:

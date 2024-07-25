@@ -26,7 +26,7 @@ jobs:
         run: |
           sudo add-apt-repository ppa:dotnet/backports
           sudo apt update
-          sudo apt install -y make yasm xorriso dotnet-sdk-6.0 git grub-mkrescue mtools
+          sudo apt install -y make yasm xorriso dotnet-sdk-6.0 git grub-common grub-pc-bin mtools
           git clone https://github.com/CosmosOS/Cosmos.git
           cd Cosmos
           make
