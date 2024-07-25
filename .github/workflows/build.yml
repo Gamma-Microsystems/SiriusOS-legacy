@@ -48,9 +48,9 @@ jobs:
           name: Disk Image
           path: SiriusOS.iso
   
-release:
-  runs-on: ubuntu-latest
-  needs: [Upload image]
+  release:
+    runs-on: ubuntu-latest
+    needs: [Upload image]
 
     steps:
     - uses: actions/download-artifact@v3
