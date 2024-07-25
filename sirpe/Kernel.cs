@@ -47,7 +47,7 @@ namespace sirpe
         public static void Agreement()
         {
             Console.Clear();
-            Console.WriteLine("This Product is licensed under GNU General Public License 3.\nBy installing this product you agree with this license.\n<https://raw.githubusercontent.com/gamma63/SiriusOS/pc/LICENSE>");
+            Console.WriteLine("This Product is licensed under SPL 1.2 license\nBy installing this product you agree with this license.\n<https://raw.githubusercontent.com/gamma63/SiriusOS/pc/LICENSE>");
             Console.WriteLine("\n\n\nPress Y to contiune or N to exit setup");
             try
             {

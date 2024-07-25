@@ -38,14 +38,4 @@ cosmos -b
 cp bin/cosmos/Debug/net$NVER/sirpe.bin ../sysroot/
 cd ..
 
-cd tools
-cc -g -O2 -pipe -Wall -Wextra -std=c99 limine.c -o limine.tool
-cd ..
-
-xorriso -as mkisofs -b sysroot/limine-bios-cd.bin \
-	-no-emul-boot -boot-load-size 4 -boot-info-table \
-	--efi-boot sysroot/limine-uefi-cd.bin \
-	-efi-boot-part --efi-boot-image --protective-msdos-label \
-	sysroot -o SiriusOS.iso
-    chmod +x tools/limine.tool
-    ./tools/limine.tool bios-install SiriusOS.iso
+grub-mkrescue /usr/lib/grub/i386-pc -o SiriusOS.iso sysroot

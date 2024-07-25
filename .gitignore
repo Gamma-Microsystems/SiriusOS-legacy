@@ -3,7 +3,6 @@
 *.iso
 *.img
 sysroot/sir*.bin
-tools/*.tool
 */ISO/
 */bin/
 */obj/

@@ -2,9 +2,18 @@
 
 # Installing dependencies:
 
+<!--
 ### openSUSE:
 ```sh
-    sudo zypper in dotnet-host-7.0 dotnet-sdk-7.0 dotnet-runtime-7.0 dotnet-hostfxr-7.0 dotnet-host yasm xorriso make
+    sudo zypper in dotnet-host-7.0 dotnet-sdk-7.0 dotnet-runtime-7.0 dotnet-hostfxr-7.0 dotnet-host yasm xorriso make grub2-mkrescue mtools grub-pc-bin grub-common
+```
+-->
+
+### Ubuntu
+```sh
+    sudo add-apt-repository ppa:dotnet/backports
+    sudo apt update
+    sudo apt install -y make yasm xorriso dotnet-sdk-6.0 git grub2-mkrescue mtools grub-pc-bin grub-common
 ```
 
 # Using Linux:
