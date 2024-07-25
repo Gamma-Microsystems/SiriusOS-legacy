@@ -2,6 +2,7 @@
 
 | Directory | Purpose |
 |-----------|---------|
+| boot/grub | Storing grub.cfg |
 | Cache     | Storing cache  |
 | Geek      | Storing files for advanced users |
 | Libraries | Stroing libraries |
